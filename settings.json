@@ -1,0 +1,147 @@
+{
+  "editor.copyWithSyntaxHighlighting": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.emptySelectionClipboard": false,
+  "workbench.editor.enablePreview": true,
+  "window.newWindowDimensions": "inherit",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "diffEditor.renderSideBySide": false,
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "workbench.editor.showTabs": "single",
+  "editor.lineNumbers": "on",
+  "editor.guides.indentation": false,
+
+  // Noise remove
+  "breadcrumbs.enabled": false,
+  "scm.diffDecorations": "none",
+  "editor.hover.delay": 1100,
+  "editor.hover.enabled": true,
+  "editor.matchBrackets": "never",
+  "workbench.tips.enabled": false,
+  "editor.colorDecorators": false,
+  "git.decorations.enabled": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.selectionHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+  "problems.decorations.enabled": true,
+  "editor.renderControlCharacters": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  /********************* More settings *********************/
+  "editor.wordWrap": "on",
+  "workbench.statusBar.visible": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.iconTheme": "vscode-icons",
+  "liveshare.anonymousGuestApproval": "accept",
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.formatOnSave": true,
+  "terminal.integrated.fontFamily": "Cascadia Code",
+  "workbench.editor.empty.hint": "hidden",
+  "window.customTitleBarVisibility": "windowed",
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.location": "bottom",
+  "workbench.sideBar.location": "right",
+
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+
+  // open json editor for settings
+  "workbench.settings.editor": "json",
+
+  // Change font
+  "editor.fontFamily": "Cascadia Code",
+  "scm.inputFontFamily": "Geist Mono",
+  "chat.editor.fontFamily": "Geist Mono",
+  "debug.console.fontFamily": "Geist Mono",
+  "editor.codeLensFontFamily": "Geist Mono",
+  "notebook.output.fontFamily": "Geist Mono",
+  "markdown.preview.fontFamily": "Geist Mono",
+  "editor.inlayHints.fontFamily": "Geist Mono",
+
+  // Font size
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+
+  // APC
+  "apc.font.family": "Cascadia code",
+  "apc.monospace.font.family": "Cascadia Code",
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.scrollbar.horizontalScrollbarSize": 6,
+  "apc.parts.font.family": {
+    "sidebar": " Cascadia code",
+    "titlebar": "Cascadia code",
+    "activityBar": "Cascadia code",
+    "panel": "Cascadia code",
+    "tabs": "Cascadia code",
+    "statusbar": "Cascadia code",
+    "settings-body": "Cascadia code",
+    "extension-editor": "Cascadia code",
+    "monaco-menu": "Cascadia code"
+  },
+
+  // Misc
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.linkedEditing": true,
+  "breadcrumbs.filePath": "off",
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "window.zoomLevel": -0.2,
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "expand",
+  "codeium.enableConfig": {
+    "*": true,
+    "postcss": true
+  },
+  "gitlens.defaultGravatarsStyle": "wavatar",
+  "gitlens.plusFeatures.enabled": false,
+  "gitlens.currentLine.format": "${author, }${agoOrDate}",
+  "gitlens.currentLine.pullRequests.enabled": false,
+  "codeium.enableCodeLens": false,
+  "[scss]": {
+    "editor.suggest.insertMode": "replace"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "workbench.colorTheme": "Andromeda Italic"
+}
