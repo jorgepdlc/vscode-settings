@@ -4,7 +4,6 @@
   "editor.emptySelectionClipboard": false,
   "workbench.editor.enablePreview": true,
   "window.newWindowDimensions": "inherit",
-  "editor.multiCursorModifier": "ctrlCmd",
   "diffEditor.renderSideBySide": false,
   "editor.snippetSuggestions": "top",
   "editor.detectIndentation": false,
@@ -13,8 +12,6 @@
   "workbench.editor.showTabs": "single",
   "editor.lineNumbers": "on",
   "editor.guides.indentation": false,
-
-  // Noise remove
   "breadcrumbs.enabled": false,
   "scm.diffDecorations": "none",
   "editor.hover.delay": 1100,
@@ -37,15 +34,13 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
-
-  /********************* More settings *********************/
+  "git.enableCommitSigning": true,
   "editor.wordWrap": "on",
   "workbench.statusBar.visible": false,
   "security.workspace.trust.untrustedFiles": "open",
   "explorer.confirmDelete": false,
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.iconTheme": "vscode-icons",
-  "liveshare.anonymousGuestApproval": "accept",
   "[python]": {
     "editor.formatOnType": true,
     "editor.defaultFormatter": "ms-python.python"
@@ -58,49 +53,24 @@
   "workbench.editor.empty.hint": "hidden",
   "window.customTitleBarVisibility": "windowed",
   "editor.minimap.enabled": false,
-  "workbench.activityBar.location": "bottom",
+  "workbench.activityBar.location": "top",
   "workbench.sideBar.location": "right",
-
   "emmet.includeLanguages": {
     "postcss": "css"
   },
-
-  // open json editor for settings
   "workbench.settings.editor": "json",
-
-  // Change font
   "editor.fontFamily": "Cascadia Code",
-  "scm.inputFontFamily": "Geist Mono",
-  "chat.editor.fontFamily": "Geist Mono",
-  "debug.console.fontFamily": "Geist Mono",
-  "editor.codeLensFontFamily": "Geist Mono",
-  "notebook.output.fontFamily": "Geist Mono",
-  "markdown.preview.fontFamily": "Geist Mono",
-  "editor.inlayHints.fontFamily": "Geist Mono",
-
-  // Font size
+  "scm.inputFontFamily": "Cascadia Code",
+  "chat.editor.fontFamily": "Cascadia Code",
+  "debug.console.fontFamily": "Cascadia Code",
+  "editor.codeLensFontFamily": "Cascadia Code",
+  "notebook.output.fontFamily": "Cascadia Code",
+  "markdown.preview.fontFamily": "Cascadia Code",
+  "editor.inlayHints.fontFamily": "Cascadia Code",
   "editor.fontSize": 14,
   "terminal.integrated.fontSize": 14,
-
-  // APC
-  "apc.font.family": "Cascadia code",
-  "apc.monospace.font.family": "Cascadia Code",
-  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.scrollbar.verticalScrollbarSize": 14,
   "editor.scrollbar.horizontalScrollbarSize": 6,
-  "apc.parts.font.family": {
-    "sidebar": " Cascadia code",
-    "titlebar": "Cascadia code",
-    "activityBar": "Cascadia code",
-    "panel": "Cascadia code",
-    "tabs": "Cascadia code",
-    "statusbar": "Cascadia code",
-    "settings-body": "Cascadia code",
-    "extension-editor": "Cascadia code",
-    "monaco-menu": "Cascadia code"
-  },
-
-  // Misc
-  "workbench.startupEditor": "none",
   "explorer.compactFolders": false,
   "editor.linkedEditing": true,
   "breadcrumbs.filePath": "off",
@@ -110,18 +80,10 @@
   },
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
-  "window.zoomLevel": -0.2,
-  "editor.cursorStyle": "block",
-  "editor.cursorBlinking": "expand",
-  "codeium.enableConfig": {
-    "*": true,
-    "postcss": true
-  },
-  "gitlens.defaultGravatarsStyle": "wavatar",
-  "gitlens.plusFeatures.enabled": false,
-  "gitlens.currentLine.format": "${author, }${agoOrDate}",
-  "gitlens.currentLine.pullRequests.enabled": false,
-  "codeium.enableCodeLens": false,
+  "window.zoomLevel": 0,
+  "editor.cursorStyle": "block-outline",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
   "[scss]": {
     "editor.suggest.insertMode": "replace"
   },
@@ -143,5 +105,14 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "workbench.colorTheme": "Andromeda Italic"
+
+  "githubPullRequests.createOnPublishBranch": "never",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "terminal.integrated.allowChords": false,
+
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/jprietoc.AXPENET/Documents/custom-vscode-css.css",
+    "file:///C:/Users/jprietoc.AXPENET/Documents/custom-vscode-script.js"
+  ],
+  "workbench.colorTheme": "Kanagawa"
 }
