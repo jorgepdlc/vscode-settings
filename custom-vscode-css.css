@@ -1,0 +1,140 @@
+/* List item label name */
+.monaco-list.list_id_1 .monaco-list-row.selected .label-name {
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+.menubar {
+  font-family: "Hack Nerd Font", monospace !important;
+}
+
+/* File explorer action buttons */
+.monaco-workbench .part.sidebar .title-actions {
+  display: none;
+}
+
+/* File Explorer Item Label */
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row .monaco-icon-label .label-name {
+  font-family: "Hack Nerd Font", monospace !important;
+}
+
+/* Sidebar top shadow */
+.monaco-scrollable-element > .shadow.top {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75) !important;
+  top: -3px !important;
+}
+
+/* Sidebar title */
+.composite.title {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-items: center !important;
+}
+.composite.title h2 {
+  font-weight: bold !important;
+  font-size: 12px !important;
+  text-transform: uppercase;
+  color: #bc13fe !important;
+}
+
+.composite.title h2::before {
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 1.1rem;
+  content: "🦈";
+}
+
+/* Scrollbar */
+.slider {
+  position: absolute !important;
+  right: 1px !important;
+  width: 1px !important;
+  background: #bc13fe !important;
+  left: auto !important;
+}
+
+.codicon-toolbar-more,
+.codicon-word-wrap {
+  display: block !important;
+}
+
+/* Tooltip box style */
+.monaco-editor-hover,
+.monaco-hover {
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.45) !important;
+  padding: 10px !important;
+  background-color: #1f1f28 !important;
+  backdrop-filter: blur(3px) !important;
+  border-radius: 8px !important;
+  border: none !important;
+}
+
+/* Command Palette */
+.quick-input-widget {
+  transform: translateY(-50%) !important;
+  top: 50% !important;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.45) !important;
+  padding: 10px 10px 18px 10px !important;
+  background-color: #1f1f28 !important;
+  backdrop-filter: blur(3px) !important;
+  border-radius: 8px !important;
+}
+
+/* Remove background for lists */
+.monaco-list-rows {
+  background: transparent !important;
+}
+
+/* List hover */
+.monaco-list-row:hover {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.notifications-toasts .monaco-list-row:hover {
+  background: none !important;
+}
+
+/* Command palette text input */
+.quick-input-filter .monaco-inputbox {
+  border-radius: 8px !important;
+  padding: 8px !important;
+  border: none !important;
+  background-color: rgba(34, 34, 34, 0.4) !important;
+  font-family: "Hack Nerd Font" !important;
+  font-size: 12px !important;
+  margin-bottom: 16px !important;
+}
+
+#command-blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(8px);
+}
+
+/* Command palette's input box placeholder. */
+.monaco-inputbox input::placeholder {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Container that holds the VS Code home icon. */
+.editor-group-watermark {
+  max-width: none !important;
+}
+
+.command-center-center {
+  width: auto !important;
+}
+
+.letterpress {
+  background-image: url() !important;
+  background-repeat: no-repeat no-repeat !important;
+  background-position: center center !important;
+  background-size: contain !important;
+  width: 60% !important;
+}
