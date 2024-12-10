@@ -111,8 +111,8 @@
   "terminal.integrated.allowChords": false,
 
   "vscode_custom_css.imports": [
-    "file:///C:/Users/jprietoc.AXPENET/Documents/custom-vscode-css.css",
-    "file:///C:/Users/jprietoc.AXPENET/Documents/custom-vscode-script.js"
+    "...",  /* Place your CSS or JavaScript files routes here to modify the VSCode interface. */
+    "..."
   ],
   "workbench.colorTheme": "Kanagawa"
 }
